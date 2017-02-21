@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim full_adder.ngc full_adder_synthesis.v 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim full_adder.ngd full_adder_translate.v 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+xst -intstyle ise -ifn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.xst" -ofn "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 

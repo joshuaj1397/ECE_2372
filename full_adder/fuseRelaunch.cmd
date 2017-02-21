@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder_full_adder_sch_tb_isim_beh.exe" -prj "C:/Users/Josh/Documents/ECE_2372/full_adder/full_adder_full_adder_sch_tb_beh.prj" "work.full_adder_full_adder_sch_tb" "work.glbl" 
